@@ -1,0 +1,39 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+header {
+  background-color: #322b32;
+  padding: 30px; }
+  header h1 {
+    color: white; }
+  header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  header li {
+    display: inline;
+    margin-right: 20px; }
+  header .links a {
+    color: white; }
+    header .links a:hover {
+      color: #339C9D; }
+
+main {
+  display: flex;
+  flex-direction: row;
+  padding: 30px; }
+  main article {
+    padding: 20px;
+    width: 66.7%; }
+  main aside {
+    width: 33.3%;
+    padding-right: 30px; }
+
+.fluid-image {
+  width: 100%;
+  height: auto; }
+
+footer {
+  padding: 30px; }
+
+/*# sourceMappingURL=main.css.map */

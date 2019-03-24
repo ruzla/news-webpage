@@ -1,0 +1,57 @@
+$headerColor: #322b32;
+$pageFont: Verdana, Geneva, Tahoma, sans-serif;
+$standardPadding: 30px;
+$linkHoverColor: #339C9D;
+
+body {
+    font-family: $pageFont;
+}
+
+header {
+    background-color: $headerColor;
+    padding: 30px;
+    h1{
+        color: white;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: inline;
+        margin-right: 20px;
+    }
+     .links {
+        a {
+        color: white;
+        &:hover { color: $linkHoverColor; }
+        }
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding: $standardPadding;
+
+    article {
+        padding: 20px;
+        width: 66.7%;
+    }
+
+    aside {
+        width: 33.3%;
+        padding-right: $standardPadding;
+    }
+
+}
+
+.fluid-image {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    padding: $standardPadding;
+}
