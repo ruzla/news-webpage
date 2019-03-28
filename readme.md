@@ -1,3 +1,3 @@
-#News Webpage Exercise
+# News Webpage Exercise
 
-###Created using html, css and sass
+### Created using html, css and sass
